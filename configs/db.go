@@ -9,7 +9,7 @@ import (
 func Connect() *pg.DB {
 	opts := &pg.Options{
 		User: "postgres",
-		Password: "postgres",
+		Password: "Santosh@1",
 		Addr: "localhost:5432",
 		Database: "gorilla",
 	}

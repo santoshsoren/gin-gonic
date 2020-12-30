@@ -4,8 +4,8 @@ import(
 	"log"
 	//"os"
 	"github.com/gin-gonic/gin"
+	config "github.com/santoshsoren/gin-gonic/configs"
 	routes "github.com/santoshsoren/gin-gonic/routes"
-	models "github.com/santoshsoren/gin-gonic/config"
 )
 
 func main(){
