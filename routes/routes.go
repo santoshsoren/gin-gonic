@@ -3,7 +3,7 @@ import (
 	"log"
 	"net/http"
 	"github.com/gin-gonic/gin"
-	controllers "github.com/santoshsoren/go_db/controllers"
+	controllers "github.com/santoshsoren/gin-gonic/controllers"
 )
 
 func Routes(router *gin.Engine) {

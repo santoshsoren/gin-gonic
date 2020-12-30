@@ -3,7 +3,7 @@ import (
 	"log"
 	"os"
 	"github.com/go-pg/pg/v9"
-	controllers "github.com/santoshsoren/go_db/controllers"
+	controllers "github.com/santoshsoren/gin-gonic/controllers"
 )
 // Connecting to db
 func Connect() *pg.DB {
