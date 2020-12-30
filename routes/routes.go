@@ -8,11 +8,11 @@ import (
 
 func Routes(router *gin.Engine) {
 	router.GET("/", welcome)
-	router.GET("/todos", controllers.GetAllTodos)
-	router.POST("/todo", controllers.CreateTodo)
-	router.GET("/todo/:todoId", controllers.GetSingleTodo)
-	router.PUT("/todo/:todoId", controllers.EditTodo)
-	router.DELETE("/todo/:todoId", controllers.DeleteTodo)
+	router.GET("/allproduct", controllers.GetAllProducts)
+	router.POST("/product", controllers.InsertProducts)
+	router.GET("/product/:productId", controllers.GetSingleProduct)
+	router.PUT("/product/:productId", controllers.UpdateProduct)
+	router.DELETE("/product/:productId", controllers.DeleteProduct)
 }
 
 func welcome(c *gin.Context) {
